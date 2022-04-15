@@ -1,6 +1,6 @@
 # Preliminary
 * Make sure fill in Google API Key: `src/lib/const.js`
-* This project is developed by 淳富, 宜珊和奕瑄 in NTU Master's degree. source: https://github.com/chunfu.
+* This project is developed by Chunfu, Coco and Cher in NTU Master's degree. source: https://github.com/chunfu.
 
 # How to start up the project
 1. get latest code: `git pull origin master`
