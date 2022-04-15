@@ -70,7 +70,7 @@ def PathDist(Service_File, Worker_File, Office_File, office_EGnm):
     
     # google map api 
     def distance_GM(origin_addr, destination_addr):
-        gmaps = googlemaps.Client(key='AIzaSyDAaFOcsAx-48cmCeX3r-lKXe7ldIYN75I')
+        gmaps = googlemaps.Client(key='apikey')
         result = gmaps.distance_matrix(origin_addr, destination_addr, mode = 'driving')['rows'][0]['elements'][0]
         if result['status'] == 'OK':
             Act_Dist = result['distance']['value']
