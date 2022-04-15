@@ -1,6 +1,4 @@
 # Preliminary
-* install git
-* GitHub repository: https://github.com/chunfu/nec-backend/
 * Make sure fill in Google API Key: `src/lib/const.js`
 
 # How to start up the project
